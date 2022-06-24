@@ -4,5 +4,6 @@ public class PrintFirstLatter {
 
         char secondChar= letters.charAt(1);
         System.out.println("Second Character is :"+secondChar);
+        System.out.println("Character by Git Branch....)
     }
 }
