@@ -10,9 +10,11 @@ public class ArrayListDemo {
         ArrayList<Employees> employees = new ArrayList<>();
          Employees employees1= new Employees("Kem",2335,2);
          Employees employees2=new Employees("Rose",8477,1);
+        Employees employees3=new Employees("Rose",8477,1);
 
         employees.add(employees1);
         employees.add(employees2);
+        employees.add(employees3);
 
         //advance for_loop for print table
         for (Employees table: employees){
