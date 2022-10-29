@@ -7,6 +7,10 @@ public class AgeCheckedThrow {
         System.out.println("Register Yourself for Bike Race, Please Enter Your Age :");
         Scanner age_of_Rider=new Scanner(System.in);
         int age=age_of_Rider.nextInt();
+        System.out.println("Enter Your Name Rider :");
+        Scanner name_of_Rider =new Scanner(System.in);
+        String name=name_of_Rider.nextLine();
+
 
         if (age>20){
             System.out.println("Fill Your Details Here Rider :");
@@ -19,5 +23,6 @@ public class AgeCheckedThrow {
 
       AgeCheckedThrow ageCheckedThrow=new AgeCheckedThrow();
       ageCheckedThrow.rider();
+
     }
 }

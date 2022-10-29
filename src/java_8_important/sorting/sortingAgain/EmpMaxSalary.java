@@ -13,7 +13,8 @@ public class EmpMaxSalary {
         employees.add(new Employees("Sonu",6800,17));
         employees.add(new Employees("Ritu",89001,76));
 
-       Optional<Object> maxSalary= employees.stream().max(Comparator.comparingInt(Employees::getSalary)).map(e->e.getSalary());
+       Optional<Object> maxSalary= employees.stream().max(Comparator.comparingInt(Employees::getSalary))
+               .map(e->e.getSalary());
 
 
 

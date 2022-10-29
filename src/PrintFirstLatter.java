@@ -2,7 +2,9 @@ public class PrintFirstLatter {
     public static void main(String[] args) {
         String letters = "abcdefgh";
 
-        char secondChar= letters.charAt(1);
-        System.out.println("Second Character is :"+secondChar);
+        char thirdChar= letters.charAt(2);
+        System.out.println("Print Third Character  :"+thirdChar);
+        System.out.print("Hello Yogesh Bhai.\n"+" "+"Hello Ravindra Bhai.");
+
     }
 }

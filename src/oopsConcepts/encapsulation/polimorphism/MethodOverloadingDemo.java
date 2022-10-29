@@ -11,9 +11,10 @@ public class MethodOverloadingDemo {
         System.out.println("Addition a and b...."+sum);
     }
 
-    void add(int a, int b, int c){
+    int add(int a, int b, int c){
         int sum2=a+b+c;
         System.out.println("Addition a,b,c ..."+sum2);
+        return sum2;
     }
 
     public static void main(String[] args) {
